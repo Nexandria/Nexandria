@@ -8,4 +8,6 @@ La red es en donde viven todas las bibliotecas (sedes) y es el nucleo del sistem
 La sede es la forma de reconocer a la entidad de la biblioteca dentro del sistema, cada una es independiente y gestionan solo su propio contenido.
 # [[Lector]]
 El usuario, simplemente existe, pero tiene varias posibilidades.
+# [[Autenticación]]
+Cómo se implementan técnicamente las sesiones, el login y los roles de todo lo anterior.
 

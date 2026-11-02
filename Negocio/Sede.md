@@ -1,6 +1,8 @@
 Entidad de la biblioteca en el sistema.
+
+Ver [[Autenticación]] para cómo se implementan los roles `branchAdmin`/`librarian` y el `sedeId` que los ata a esta entidad.
 # Fundamentos
-- Nombre clave: AdminSed
+- Nombre clave: BranchAdmin
 - Cada sede es independiente, y gestiona su propio inventario y bibliotecarios
 - Cada sede tiene 1 Administrador
 - Tiene bibliotecarios o gestores de inventario
@@ -8,13 +10,13 @@ Entidad de la biblioteca en el sistema.
 # [[Común]]
 Sede común.
 # [[Escolar]]
-Es una sede especial que tiene usuarios registrados a su nombre del tipo Alumno, Pueden recibir préstamos de otros usuarios alumno de otras escuelas.
+Es una sede especial que tiene usuarios registrados a su nombre del tipo Student, Pueden recibir préstamos de otros usuarios student de otras escuelas.
 # [[Administrador de Sede]]
 Es el encargado de gestionar TODA sede, es decir:
 - Crear bibliotecarios
 - Revisar inventario
 - Sanciones a usuarios con problemas con préstamos
-# [[Bibliotecario]]
+# [[Bibliotecario|Librarian]]
 Gestiona el inventario y ejecuta los préstamos.
 ## Registro
 # [[Inventario]]

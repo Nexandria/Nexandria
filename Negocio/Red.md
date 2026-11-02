@@ -1,6 +1,6 @@
 El núcleo del sistema.
 # Fundamentos
-- Nombre clave: AdminRed
+- Nombre clave: NetAdmin
 - Cada sede es independiente y autónoma
 # [[Foro]]
 El foro es un espacio sutil para compartir libros, disponible para usuarios comunes (y verificados).
@@ -13,6 +13,6 @@ Para levantar una sede hay que definir  cosas:
 - Administrador de Sede (correo registrado en el sistema)
 - Ubicación (extraída de url de maps)
 # [[Mapa de Sedes]]
-La idea es que AdminRed vea todas las sedes en un mapa, en donde pueda localizar todas, obviamente también puede buscar por nombre clave o nombre formal. De ahí mismo hacer las acciones.
+La idea es que NetAdmin vea todas las sedes en un mapa, en donde pueda localizar todas, obviamente también puede buscar por nombre clave o nombre formal. De ahí mismo hacer las acciones.
 # Gestión de Usuarios
 Gestionar los usuarios, ver la lista completa, mover roles, permisos, ABM ajustado al contexto. 
